@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectRussian"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivitySR2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySR"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySuf2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySuf"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNNN2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNNN"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityGlas3"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityGlas2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityGlas"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerPristavki2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPristavki2"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerPristavki1"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPristavki"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
